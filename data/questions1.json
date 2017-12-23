@@ -1,0 +1,49 @@
+{"questions":
+  [
+      {
+          "type": "radio",
+          "question": "... ever been to London?",
+          "answers": ["Have you", "Did you", "Do you"],
+          "correctAnswerIndex": 0
+      },
+      {
+          "type": "checkbox",
+          "question": "Choose existing english words:",
+          "answers": ["decoration", "molenton", "theoby", "luxury", "loop"],
+          "correctAnswerIndex": [0, 3, 4]
+
+      },
+      {
+          "type": "radio",
+          "question": "I am looking forward ... your presentation.",
+          "answers": ["hear", "to hearing", "have heard"],
+          "correctAnswerIndex": 1
+      },
+      {
+          "type": "checkbox",
+          "question": "Name colors:",
+          "answers": [ "solid", "blue", "square", "apple", "green"],
+          "correctAnswerIndex": [1, 4]
+      },
+      {
+          "type": "radio",
+          "question": "He ... the dishes when Julia came.",
+          "answers": ["has washed", "had washed", "washed"],
+          "correctAnswerIndex": 1
+      },
+      {
+          "type": "checkbox",
+          "question": "Name animals:",
+          "answers": ["dog", "raccoon", "platypus", "aloe vera"],
+          "correctAnswerIndex": [0, 1, 2]
+
+      },
+      {
+          "type": "radio",
+          "question": "All the cookies...",
+          "answers": ["were ate", "eaten", "have been eaten"],
+          "correctAnswerIndex": 2
+      }
+
+  ]
+}

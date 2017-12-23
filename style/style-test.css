@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #eeeeee; }
+
+button {
+  display: block;
+  height: auto;
+  width: auto;
+  padding: 10px 30px;
+  border-radius: 3px;
+  margin: 20px 0;
+  font-family: Tahoma, sans-serif;
+  font-size: 90%;
+  cursor: pointer; }
+  button.start-test, button#next {
+    background-color: #000;
+    color: #fff;
+    border: 3px solid #000; }
+
+
+/*---------GeekTest - Your Tests------------*/
+div.wrapper {
+  margin: auto;
+  width: 60%; }
+
+section.tests {
+  padding: 3%;
+  margin: 0;
+  background-color: #eee; }
+
+section.tests h2 {
+  font-size: 120%;
+  color: #cccccc;
+  margin: 15px 0; }
+
+div.frame {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  border-radius: 10px; }
+  div.frame img {
+    display: block;
+    height: 200px;
+    margin: auto; }
+
+div.english-test {
+  display: flex;
+  align-content: center; }
+
+
+/*---------GeekTest - Start English test------------*/
+section.start-your-test {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 5%; }
+
+div.start-your-test {
+  text-align: center;
+  margin: 0;
+  padding: 5%; }
+
+div.start-your-test p {
+  margin: 10px auto;
+  width: 60%; }
+
+div.buttons {
+  border-top: 2px solid #ccc;
+  display: flex;
+  justify-content: space-between; }
+
+button.exit {
+  background-color: #ffffff;
+  border: 3px solid #ccc; }
+
+button.exit:hover {
+  background-color: #ccc; }
+
+/*------------GeekTest - English Test------------*/
+div#timer {
+  font-size: 200%;
+  padding: 2%; }
+
+#progress-bar {
+  height: 3px;
+  background-color: #cccccc; }
+
+#current-progress {
+  height: 3px;
+  background-color: #0000cd;
+  width: 100%; }
+
+div.question {
+  height: 200px;
+  border-bottom: 3px solid #cccccc; }
+
+.result {
+  text-align: center; }
+  .result img {
+    height: 200px; }
+
+/*# sourceMappingURL=style.css.map */
